@@ -10,7 +10,6 @@ from scipy.ndimage.interpolation import shift as scipy_shift
 from symfit import Parameter, Variable, Fit
 import argparse
 import sys
-import codecs
 
 #http://scikit-image.org/docs/dev/auto_examples/transform/plot_register_translation.html
 class DriftCorrect(object):

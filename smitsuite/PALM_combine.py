@@ -56,8 +56,3 @@ def start_vm():
 
 def stop_vm():
     javabridge.kill_vm()
-
-if __name__ == '__main__':
-    data_dir = r'C:\Users\Smit\Data\20170524_yichen_ecoli_uptake\20170524DH5_250nM_NeoBRhoB'
-    output_dir = r'C:\Users\Smit\Data\20170524_yichen_ecoli_uptake'
-    stack_all(data_dir, output_dir)

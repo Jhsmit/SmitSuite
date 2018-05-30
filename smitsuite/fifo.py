@@ -8,7 +8,6 @@ class FifoFile(object):
     When analysis type is selected this runs.
     """
 
-
     def __enter__(self):
         return self._read_to_np()
 
